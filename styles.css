@@ -1,26 +1,86 @@
-div {
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+/* ***HOMEPAGE STYLES*** */
+
+/* main-container style for index.html */
+.homepage-box {
     background-color: rgb(241, 241, 116);
+    height: 100%;
     text-align: center;
- 
-    margin: 10px;
-    border-color: rgb(112, 228, 133); 
-    border-style: solid;
-    border-width: 5px;
 }
 
+/* homepage h1 main-title style*/
 .main-title {
+    display: block;
     color: green;
     font-weight: 1000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     background-color: lightblue;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
+.homepage-UL {
+    font-size: 30px;
+    display: inline-block;
+    text-align: left;
+    line-height: 3;
+}
+
+/* homepage link style*/
 a {
     text-decoration: none;
 }
 
-li {
-    list-style-type: none;
+
+/* ***RECIPE PAGES STYLES*** */
+
+.noodle-body {
+    padding: 10px;
 }
 
+.eggs-body {
+    padding: 10px;
+}
+
+.pork-body {
+    padding: 10px;
+}
+
+.recipe-h1 {
+    background-color: lightblue;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif
+}
+
+.recipe-h2 {
+    background-color: lightcoral;
+    color: black;
+    font-family: 'Calibri','Verdana', 'Geneva', 'Tahoma', sans-serif
+}
+
+.recipe-UL {
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    font-family: 'Calibri', 'Verdana', 'Geneva', 'Tahoma', sans-serif
+}
+
+.recipe-OL {
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    font-family: 'Calibri','Verdana', 'Geneva', 'Tahoma', sans-serif   
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Calibri', 'Verdana', 'Geneva', 'Tahoma', sans-serif
+}
